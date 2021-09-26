@@ -6,8 +6,9 @@ import './Main.css';
 
 
 const Main = () => {
-    const [writers, setWriters] = useState([]);
-    const [select, setSelect] = useState([]);
+    // ==get data from api called by usestate and useeffect=======
+    const [writers, setWriters] = useState([]); // usestate
+    const [select, setSelect] = useState([]); 
     useEffect(()=>{
         fetch('./fake.json')
         .then(res => res.json())
@@ -23,7 +24,11 @@ const Main = () => {
         <div className="main-container">
             <div className="poets">
                 {
-                    writers.map(data => <Writers button={handleButton} data={data}></Writers>)
+                    /* send data to writters file from api...  */
+                    writers.map(data => <Writers 
+                        key={data.key}
+                        button={handleButton} 
+                        data={data}></Writers>)
                 }
             </div>
             <div className="select-poet">

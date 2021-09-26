@@ -3,8 +3,24 @@
     padding: 0;
 }
 
+/* ==========header part of the file================ */
 .header {
     text-align: center;
-    background: tomato;
+    background: rgb(122, 171, 228);
+    color: black;
     line-height: 40px;
+    padding: 20px;
+    /* color: rgb(247, 64, 222); */
+}
+
+.header h2 {
+    font-weight: 500;
+}
+
+.header p span {
+    font-size: 30px;
+}
+
+.header p {
+    font-size: 20px;
 }
