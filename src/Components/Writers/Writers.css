@@ -1,0 +1,30 @@
+.single-poet {
+    background: rgb(219, 224, 236);
+    padding: 20px;
+    border: 1px solid tomato;
+    border-radius: 10px;
+}
+
+.poet-image {
+    text-align: center;
+    padding: 40px;
+}
+
+.poet-image img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+.poet-info {
+    line-height: 30px;
+}
+
+.btn {
+    text-align: center;
+}
+
+.add-btn {
+    padding: 10px 40px;
+
+}
