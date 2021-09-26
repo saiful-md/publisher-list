@@ -1,6 +1,6 @@
 # Legendary Writer of Bangla litarature
 
-This is website Link: ('https://silly-gates-cc19c0.netlify.app/').
+This is website Link: 'https://poets-information.netlify.app/'
 
 ## Site information.....
 
