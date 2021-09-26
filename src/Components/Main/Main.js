@@ -1,5 +1,6 @@
 import React from 'react';
-import { useEffect, useState } from 'react/cjs/react.development';
+import { useState,useEffect } from 'react';
+
 import Cart from '../Cart/Cart';
 import Writers from '../Writers/Writers';
 import './Main.css';
@@ -7,8 +8,9 @@ import './Main.css';
 
 const Main = () => {
     // ==get data from api called by usestate and useeffect=======
-    const [writers, setWriters] = useState([]); // usestate
+    const [writers, setWriters] = useState([]); 
     const [select, setSelect] = useState([]); 
+   
     useEffect(()=>{
         fetch('./fake.json')
         .then(res => res.json())
